@@ -1,0 +1,15 @@
+# Server port
+port: 3000
+
+# Site customization (optional)
+site:
+  title: "S3 Bucket Browser"
+  description: ""  # Optional description shown below the title
+
+# S3-compatible storage configuration
+s3:
+  endpoint: https://eu2.contabostorage.com
+  region: eu2
+  bucket: your-bucket-name
+  access_key_id: your-access-key-id
+  secret_access_key: your-secret-access-key
